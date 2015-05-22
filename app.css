@@ -1,0 +1,36 @@
+  html, body {
+    font-family: 'Merienda', cursive, italic;
+    font-weight:100;
+    color:#999;
+    background-color:#222;
+    font-size: 20px;
+    text-shadow: 2px 2px #111;
+}
+
+
+p {
+    text-align:center;
+    font-size:1.5em;
+    margin-top:2.5em;
+    margin-right:4em;
+    margin-left:4em;
+}
+
+#github_link {
+    position: absolute;
+    top: 0;
+    right:0;
+    border: 0;
+}
+
+div {
+    margin-top:16%;
+} 
+
+span {
+    font-family: 'Neuton', serif;
+    font-size: 20px;
+    display:block;
+    margin:2em;
+    color:#989898; 
+}
