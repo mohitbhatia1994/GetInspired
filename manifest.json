@@ -2,16 +2,18 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
     "name": "Get Inspired",
-    "version": "1.0",
+    "short_name": "GI",
+    "version": "1.0.1",
     "manifest_version": 2,
     "description" : "Inspire yourself whenever you open a new tab. 
-    It is really light weight extension and doesn't affect your browsing speed",
+    It is light weight extension so it doesn't affect your browsing speed",
     "offline_enabled": true,
-    "chrome_url_overrides" : {
-        "newtab": "app.html"
-    },
+    // "chrome_url_overides" : {
+    //     "newtab": "app.html"
+    // },
     
-    "icons": {
-       "128":"/icon.png"
-    }
+ 
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
 }

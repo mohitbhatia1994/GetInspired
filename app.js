@@ -1,6 +1,4 @@
-window.onload = function(){
-
-    var quote = [];
+var quote = [];
 
     quote[0] = 'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.  <span>-  Thomas A. Edison</span>';
     quote.push('You are never too old to set another goal or to dream a new dream. <span>- C.S. Lewis</span>');
@@ -118,6 +116,9 @@ window.onload = function(){
     var random = Math.floor(Math.random()*(quote.length));
     var quoteBody = document.getElementById("quote__body");
 
+function quo() {
     quoteBody.innerHTML = quote[random];
+}
+window.onload = quo();
 
-};
+

@@ -1,12 +1,12 @@
-  html, body {
+html, body {
     font-family: 'Merienda', cursive, italic;
     font-weight:100;
     color:#999;
     background-color:#222;
     font-size: 20px;
     text-shadow: 2px 2px #111;
-}
 
+}
 
 p {
     text-align:center;
@@ -16,21 +16,47 @@ p {
     margin-left:4em;
 }
 
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
 #github_link {
     position: absolute;
     top: 0;
     right:0;
     border: 0;
+    opacity: 0.4;
+    animation-name: example1;
+    animation-duration: 4s;
+
+}
+
+#github_link:hover {
+    opacity: 0.9;
+}
+
+/* Chrome, Safari, Opera */
+@keyframes example1{
+    from {opacity:1;}
+    to {opacity: 0.4;}
 }
 
 div {
-    margin-top:16%;
-} 
+    margin-top:18%;
+}
 
 span {
-    font-family: 'Neuton', serif;
+    font-family: 'Delius', serif;
     font-size: 20px;
     display:block;
     margin:2em;
     color:#989898; 
+
+
 }
+
+/*Neuton*/
