@@ -106,13 +106,13 @@ var quote = [];
     quote.push("Life is what we make it, always has been, always will be. <span>– Grandma Moses</span>");
     quote.push("The question isn’t who is going to let me; it’s who is going to stop me. <span>– Ayn Rand</span>");
     quote.push("When everything seems to be going against you, remember that the airplane takes off against the wind, not with it. <span>– Henry Ford</span>");
-    quote.push("It’s not the years in your life that count. It’s the life in your years. <span>– Abraham Lincoln</span>");
     quote.push("Change your thoughts and you change your world. <span>– Norman Vincent Peale</span>");
     quote.push("Either write something worth reading or do something worth writing. <span>– Benjamin Franklin</span>");
     quote.push("The only way to do great work is to love what you do. <span>– Steve Jobs</span>");
     quote.push("You have to learn the rules of the game. And then you have to play better than anyone else. <span> Albert Einstein </span>");
     quote.push("People often say that motivation doesn\'t last. Well, neither does bathing - that\'s why we recommend it daily. <span> - Zig Ziglar</span>");
-
+    quote.push("It’s not the years in your life that count. It’s the life in your years. <span>– Abraham Lincoln</span>");
+    
     var random = Math.floor(Math.random()*(quote.length));
     var quoteBody = document.getElementById("quote__body");
 
