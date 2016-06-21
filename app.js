@@ -114,7 +114,7 @@ var quote = [];
     quote.push("It’s not the years in your life that count. It’s the life in your years. <span>– Abraham Lincoln</span>");
     
     var random = Math.floor(Math.random()*(quote.length));
-    var quoteBody = document.getElementById("quote__body");
+    var quoteBody = document.getElementById("quote_body");
 
 
 window.onload = () => quoteBody.innerHTML = quote[random];
