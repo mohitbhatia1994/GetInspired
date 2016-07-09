@@ -8,9 +8,9 @@
     "description" : "Inspire yourself whenever you open a new tab. 
     It is light weight extension so it doesn't affect your browsing speed",
     "offline_enabled": true,
-    // "chrome_url_overides" : {
-    //     "newtab": "app.html"
-    // },
+    "chrome_url_overrides" : {
+        "newtab": "app.html"
+    },
     
  
     "icons": { "16": "icon16.png",
