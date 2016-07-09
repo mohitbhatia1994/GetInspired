@@ -109,11 +109,10 @@ const quote = ['Our greatest weakness lies in giving up. The most certain way to
     "The only way to do great work is to love what you do. <span>– Steve Jobs</span>",
     "You have to learn the rules of the game. And then you have to play better than anyone else. <span> Albert Einstein </span>",
     "People often say that motivation doesn\'t last. Well, neither does bathing - that\'s why we recommend it daily. <span> - Zig Ziglar</span>",
-    "It’s not the years in your life that count. It’s the life in your years. <span>– Abraham Lincoln</span>"];
-    
-    var   random    = Math.floor(Math.random()*(quote.length));
-    const quoteBody = document.getElementById("quote_body");
+    "It’s not the years in your life that count. It’s the life in your years. <span>– Abraham Lincoln</span>",
+    "If you can’t solve a problem, it’s because you’re playing by the rules.” <span> - Paul Arden</span>];
+
+var random = Math.floor(Math.random()*(quote.length));
+const quoteBody = document.getElementById("quote_body");
 
 window.onload = () => quoteBody.innerHTML = quote[random];
-
-
